@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.main {
+  height: 100%;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  width: 25vw;
+}
+
+.form-bar {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ddd;
+}
+
+.form-control {
+  border: 1px solid black;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  background-color: #aaf;
+}
+
+.form-message {
+  flex: 1 1 auto;
+}
+
+.form-buttons {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: blue;
+}
+
+/* bring window to the front */
+.front-1 {
+  z-index: 1;
+}
+
+/* set the default cursor */
+.default-cursor {
+  cursor: default;
+}
+
+/* center HTML element in the parent element */
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* remove element from the layout */
+.removed {
+  display: none;
+}
